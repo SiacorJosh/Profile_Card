@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+      }
+      .card{
+        background-color: rgb(2, 62, 82);
+        height: 350px;
+        width: 280px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+        
+      }
+
+      .upper{
+        display: flex;
+        background-color: rgb(68, 110, 199);
+        width: 280px;
+        height: 135px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+      }
+      .profile{
+        width: 120px;
+        height: 120px;
+        margin-top: 55px;
+        object-fit: cover;
+        border-radius: 80px;
+        border: 3px solid  rgb(68, 110, 199);
+      }
+      .lower{
+        background-color: white;
+        width: 280px;
+        height: 215px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      .name{
+        font-family: Arial;
+        font-size: 18px;
+        margin-top: 5px
+      }
+      .about{
+        font-family: Arial;
+        font-size: 12px;
+        margin-top: 5px;
+      }
+      .social-media{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      
+      }
+      .social-media img{
+        width: 25px;
+        height: 25px;
+        border-radius: 15px;
+      }
+      .approach{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        
+
+      }
+      .approach div{
+        color: white;
+        font-family: Arial;
+        font-size: 13px;
+        background-color: rgb(68, 110, 199);
+        padding: 8px 20px 8px 20px;
+        border-radius: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="card">
+      <div class="upper">
+        <div class="image">
+          <img class="profile" src="cat.jpg" alt="Profile">
+        </div>
+      </div>
+      <div class="lower">
+        <div class="name">SiacorJoshua</div>
+        <div class="about">BIT 2B DAY</div>
+        <div class="social-media">
+          <a href="https://www.facebook.com/siacorjoshua">
+            <img src="Facebook_f_logo_(2021).svg.webp">
+          </a>
+          
+          <img src="tweet.png">
+          <a href="https://www.instagram.com/siacorjuswa/">
+            <img src="insta.svg">
+          </a>
+          
+          <a href="https://www.youtube.com/channel/UCsK-6KbcOVQ3dE1iH1mJing">
+            <img src="youtube.png">
+          </a>
+          
+        </div>
+        <div class="approach">
+          <div>Subscribe</div>
+          <div>Message</div>
+        </div>
+        <div class="react">
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
